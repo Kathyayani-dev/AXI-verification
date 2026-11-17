@@ -1,6 +1,6 @@
-# axi_if.sv
+#code for axi_if.sv
 
-/..
+...
 interface axii_if(input bit clk);
 	
 	logic ARESETn;
@@ -235,4 +235,4 @@ interface axii_if(input bit clk);
 	modport SLV_MON_MP(clocking slv_mon_cb);
 endinterface
 
-../
+...
